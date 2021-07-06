@@ -4,10 +4,10 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-#ifndef VENDOR_LINEAGE_BIOMETRICS_FINGERPRINT_INSCREEN_V1_1_FINGERPRINTINSCREEN_H
-#define VENDOR_LINEAGE_BIOMETRICS_FINGERPRINT_INSCREEN_V1_1_FINGERPRINTINSCREEN_H
+#ifndef VENDOR_LINEAGE_BIOMETRICS_FINGERPRINT_INSCREEN_V1_0_FINGERPRINTINSCREEN_H
+#define VENDOR_LINEAGE_BIOMETRICS_FINGERPRINT_INSCREEN_V1_0_FINGERPRINTINSCREEN_H
 
-#include <vendor/lineage/biometrics/fingerprint/inscreen/1.1/IFingerprintInscreen.h>
+#include <vendor/lineage/biometrics/fingerprint/inscreen/1.0/IFingerprintInscreen.h>
 #include <vendor/xiaomi/hardware/displayfeature/1.0/IDisplayFeature.h>
 #include <vendor/xiaomi/hardware/fingerprintextension/1.0/IXiaomiFingerprint.h>
 #include <vendor/xiaomi/hardware/touchfeature/1.0/ITouchFeature.h>
@@ -17,7 +17,7 @@ namespace lineage {
 namespace biometrics {
 namespace fingerprint {
 namespace inscreen {
-namespace V1_1 {
+namespace V1_0 {
 namespace implementation {
 
 using ::android::sp;
@@ -59,11 +59,11 @@ class FingerprintInscreen : public IFingerprintInscreen {
 };
 
 }  // namespace implementation
-}  // namespace V1_1
+}  // namespace V1_0
 }  // namespace inscreen
 }  // namespace fingerprint
 }  // namespace biometrics
 }  // namespace lineage
 }  // namespace vendor
 
-#endif  // VENDOR_LINEAGE_BIOMETRICS_FINGERPRINT_INSCREEN_V1_1_FINGERPRINTINSCREEN_H
+#endif  // VENDOR_LINEAGE_BIOMETRICS_FINGERPRINT_INSCREEN_V1_0_FINGERPRINTINSCREEN_H
